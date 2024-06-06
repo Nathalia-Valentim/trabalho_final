@@ -26,7 +26,7 @@ Widget categoriaContainer(List<Map<String, String>> itens) {
                       child: Text(
                         item['text']!,
                         textAlign: TextAlign.center,
-                        style: GoogleFonts.sono(
+                        style: GoogleFonts.dosis(
                           color: Colors.black, 
                           fontSize: 20,
                           fontWeight: FontWeight.w600,

@@ -8,10 +8,11 @@ Widget destaque({String title = "Título"}) {
       alignment: Alignment.centerLeft, 
       child: Text(
         title,
-        style: GoogleFonts.sono(
-          color: Color(0xFF2e2e2c),
+        style: GoogleFonts.dosis(
+          color: Color.fromARGB(255, 0, 0, 0),
           fontSize: 24,
-          fontWeight: FontWeight.bold,
+          fontWeight: FontWeight.w700,
+          letterSpacing: 3,
         ),
       ),
     ),
